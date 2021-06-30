@@ -21,7 +21,7 @@ const bodyParser = require('body-parser');
 
 const MongoClient = require('mongodb').MongoClient;
 const { ObjectID } = require('mongodb');
-const MongoConnectionString = 'mongodb+srv://nabil:jH5oLdn4CMzFT9lu@cluster0.n7fwq.mongodb.net/book-app?retryWrites=true&w=majority'
+const MongoConnectionString = ''
 
 MongoClient.connect(MongoConnectionString, {
     useUnifiedTopology: true
